@@ -102,6 +102,13 @@ hr {
     margin: 0 auto 0;
 }
 
+.column{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    -ms-column-count: 2; /*Not sure what these are but the application is telling me to include it...*/
+    column-count: 2;
+}
+
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);

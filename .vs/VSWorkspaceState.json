@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Subdirectories",
+    "\\Subdirectories\\Games",
+    "\\Subdirectories\\Games\\Pong",
+    "\\Subdirectories\\Games\\Pong\\WebGL",
+    "\\Subdirectories\\Pages"
   ],
+  "SelectedNode": "\\Subdirectories\\Games\\Pong\\WebGL\\index.html",
   "PreviewInSolutionExplorer": false
 }
