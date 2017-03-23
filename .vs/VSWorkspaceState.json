@@ -5,8 +5,10 @@
     "\\Subdirectories\\Games",
     "\\Subdirectories\\Games\\Pong",
     "\\Subdirectories\\Games\\Pong\\WebGL",
-    "\\Subdirectories\\Pages"
+    "\\Subdirectories\\Pages",
+    "\\Subdirectories\\Pages\\Biology Website",
+    "\\Subdirectories\\Pages\\Biology Website\\img"
   ],
-  "SelectedNode": "\\Subdirectories\\Games\\Pong\\WebGL\\index.html",
+  "SelectedNode": "\\Subdirectories\\Pages\\Biology Website\\img\\Dolly.jpg",
   "PreviewInSolutionExplorer": false
 }
