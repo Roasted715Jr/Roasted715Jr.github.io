@@ -16,9 +16,8 @@
         <!-- Custom CSS -->
         <link href="css/business-casual.css" rel="stylesheet">
 
-		<?php
-			include "PHPFile.php";
-		?>
+		<script type="text/javascript" src="js\jquery.js"></script>
+		<script type="text/javascript" src="js\JS.js"></script>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -30,6 +29,14 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+
+		<!--
+		<script type="text/javascript">
+			$(function () {
+				alert("My First Jquery Test");
+			});
+		</script>
+			-->
 
     </head>
 
@@ -56,19 +63,19 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="index.html">Home</a>
+                            <a id="tab1" href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="HowItsUsed.html">How its Used</a>
+                            <a id="tab2" href="HowItsUsed.html">How its Used</a>
                         </li>
                         <li>
-                            <a href="ProsCons.html">Pros/Cons</a>
+                            <a id="tab3" href="ProsCons.html">Pros/Cons</a>
                         </li>
                         <li>
-                            <a href="Question.html">My Question</a>
+                            <a id="tab4" href="Question.html">My Question</a>
                         </li>
 						<li>
-							<a href="References.html">References</a>
+							<a id="tab5" href="References.html">References</a>
 						</li>
                     </ul>
                 </div>
