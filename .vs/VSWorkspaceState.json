@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Subdirectories",
-    "\\Subdirectories\\Games\\Paintball",
-    "\\Subdirectories\\Games\\Paintball\\WebGL",
     "\\Subdirectories\\Pages",
-    "\\Subdirectories\\Pages\\Biology Website"
+    "\\Subdirectories\\Pages\\Biology Website",
+    "\\Subdirectories\\Pages\\Biology Website\\js"
   ],
-  "SelectedNode": "\\Subdirectories\\Pages\\Biology Website\\PHPFile.php",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
