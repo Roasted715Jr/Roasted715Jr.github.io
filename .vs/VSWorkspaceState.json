@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Subdirectories\\Pages",
+    "\\Subdirectories",
     "\\Subdirectories\\Pages\\Biology Website",
-    "\\Subdirectories\\Pages\\Biology Website\\js"
+    "\\Subdirectories\\Pages\\Biology Website\\js",
+    "\\Subdirectories\\Programs"
   ],
-  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }

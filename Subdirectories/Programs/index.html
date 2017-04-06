@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact List</title>
+		<script type="text/javascript" src="js/Shared/jquery.js"></script>
+		<script type="text/javascript" src="js/Shared/angular.min.js"></script>
+		<script type="text/javascript" src="js/Controllers/MainController.js"></script>
+	</head>
+	<body ng-app="myApp">
+	
+		<form name="myForm" action="" method="get">
+			Enter something in the box: <br/>
+		<input type="text" name="inputbox" value=""><p>
+		<input type="button" name="button" value="Click" onClick="testResults(this.form)">
+		</form>
+
+		<div class="main" ng-controller="MainController">
+			<p>Say hello to {{name}}</p>
+		</div>
+	
+	</body>
+</html>
