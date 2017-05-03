@@ -22,13 +22,32 @@
 	
 	<head>
 		<title>AngularJS Tutorial</title>
-		<script type="text/javascript" src="js/W#3Tutorial"></script>
+		<script type="text/javascript" src="js/Shared/jquery.js"></script>
+		<script type="text/javascript" src="js/Shared/angular.min.js"></script>
+		<script type="text/javascript" src="js/W3Tutorial.js"></script>
 		
 	</head>
 	<body>
-		<div ng-app="">
-			<p>Name: <input type="text" ng-model="name"></p>
-			<p ng-bind="name"></p>
+	<!-- The ng-app directive defines an AngularJS application.
+	The ng-model directive binds the value of HTML controls (input, select, textarea) to application data.
+	The ng-bind directive binds application data to the HTML view.
+	The ng-init directive initializes AngularJS application variables. -->
+		<div ng-app="myApp" ng-controller="myCtrl" ng-init="firstName='Matthew'">
+			<p>Name: <input type="text" ng-model="text"></p>
+			<p ng-bind="text"></p>
+			<p>Or you could do {{text}}</p>
+			
+			
+			<p>The name is <span ng-bind="firstName"></span></p>
+			
+			<p>My first expression: {{5+5}}</p>
+			
+			First Name: <input type="text" ng-model="firstName"><br>
+			Last Name: <input type="text" ng-model="lastName"><br>
+			<br>
+			Full Name: {{firstName + " " + lastName}}
+			
+			<p>Answer: {{answer}}</p>
 		</div>
 	</body>
 </html>
