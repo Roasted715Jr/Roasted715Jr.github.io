@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
-    "\\Subdirectories",
-    "\\Subdirectories\\Pages\\Biology Website",
-    "\\Subdirectories\\Pages\\Biology Website\\js",
-    "\\Subdirectories\\Programs"
+    "",
+    "\\Subdirectories\\Games\\Pong",
+    "\\Subdirectories\\Programs",
+    "\\Subdirectories\\Programs\\js",
+    "\\Subdirectories\\Programs\\js\\Controllers"
   ],
+  "SelectedNode": "\\images",
   "PreviewInSolutionExplorer": false
 }

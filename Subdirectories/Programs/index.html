@@ -2,6 +2,20 @@
 <html>
 	<head>
 		<title>Contact List</title>
+
+		<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+		<script>
+			// Initialize Firebase
+			var config = {
+				apiKey: "AIzaSyB5uH8mmBb0huRxIKPgtnFqJZGM_0T1YBw",
+				authDomain: "test-project-1accb.firebaseapp.com",
+				databaseURL: "https://test-project-1accb.firebaseio.com",
+				projectId: "test-project-1accb",
+				storageBucket: "test-project-1accb.appspot.com",
+				messagingSenderId: "429931566659"
+			};
+			firebase.initializeApp(config);
+		</script>
 		<script type="text/javascript" src="js/Shared/jquery.js"></script>
 		<script type="text/javascript" src="js/Shared/angular.min.js"></script>
 		<script type="text/javascript" src="js/Controllers/MainController.js"></script>
@@ -17,6 +31,5 @@
 		<div class="main" ng-controller="MainController">
 			<p>Say hello to {{name}}</p>
 		</div>
-	
 	</body>
 </html>
