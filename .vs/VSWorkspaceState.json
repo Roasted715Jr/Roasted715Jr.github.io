@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\js"
+    "\\assets\\js",
+    "\\Subdirectories",
+    "\\Subdirectories\\Pages",
+    "\\Subdirectories\\Pages\\Physics Helper",
+    "\\Subdirectories\\Pages\\Physics Helper\\js"
   ],
-  "SelectedNode": "\\assets\\js\\main.js",
+  "SelectedNode": "\\Subdirectories\\Pages\\Physics Helper\\js\\main.js",
   "PreviewInSolutionExplorer": false
 }
