@@ -4,11 +4,18 @@ $(document).ready(() => {
 		//alert("The document was loaded");
 	});
 
-	const button = $("#btn");
-	const textBox = $("#txtBox");
+	const ffBtn = $("#ffButton");
+	const deltaYTxtBox = $("#deltaY");
 
-	button.on("click", () => {
+	let deltaY = null;
+	let Voy = null;
+	let Vy = null;
+
+	ffBtn.on("click", () => {
 		//alert("Ouch");
-		alert(textBox.prop("value"));
+		//alert(textBox.prop("value"));
+		
+		deltaY = deltaYTxtBox.prop("value");
+		alert(deltaY);
 	});
 });
